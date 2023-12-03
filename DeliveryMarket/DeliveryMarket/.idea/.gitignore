@@ -1,11 +1,6 @@
 # Default ignored files
 /shelf/
-.xml
-.iml
-.mf
-**/build
-**/nbproject
-**/out
+/workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
 # Datasource local storage ignored files

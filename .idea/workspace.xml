@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8876ad74-3b1c-4713-b249-9772e83743e3" name="Changes" comment="Arcade Night Date">
+      <change beforePath="$PROJECT_DIR$/out/production/SlotMachineTest/slotmachinetest/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SlotMachineTest/slotmachinetest/Card.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SlotMachineTest/slotmachinetest/PrizeCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SlotMachineTest/slotmachinetest/PrizeCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SlotMachineTest/slotmachinetest/SlotMachineTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SlotMachineTest/slotmachinetest/SlotMachineTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SlotMachineTest/slotmachinetest/Terminal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SlotMachineTest/slotmachinetest/Terminal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slotmachinetest/SlotMachineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slotmachinetest/SlotMachineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slotmachinetest/Terminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slotmachinetest/Terminal.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6bbde977-2f56-4139-b45c-4472c3716806" />
+        <option name="url" value="https://github.com/s4ppyy/JavaOOP.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2XIeELhelaSOlzo7yVLGmhValIo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Danee/IdeaProjects/JavaTaskOOP&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="SlotMachineTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slotmachinetest.SlotMachineTest" />
+      <module name="SlotMachineTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="slotmachinetest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SlotMachineTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8876ad74-3b1c-4713-b249-9772e83743e3" name="Changes" comment="" />
+      <created>1698320909020</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698320909020</updated>
+      <workItem from="1698320910194" duration="14489000" />
+      <workItem from="1698495907047" duration="3679000" />
+      <workItem from="1701292629515" duration="1016000" />
+      <workItem from="1701525823021" duration="659000" />
+    </task>
+    <task id="LOCAL-00001" summary="Arcade Night Date">
+      <created>1698356033074</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698356033074</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Arcade Night Date">
+      <created>1698356507651</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698356507651</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Arcade Night Date" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arcade Night Date" />
+  </component>
+</project>

@@ -17,18 +17,25 @@ public class Terminal {
         id = idConstruct;
     }
 
-    public void UI(Card card) throws Exception {
+    public void UI() throws Exception {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Card ID: ");
+
+        Card card;
+
+        do {
+            card = office.GetCard(sc.nextInt());
+        } while (card == null);
 
         System.out.println("-------Меню-------");
-
         System.out.println("1. Пополнить баланс");
         System.out.println("2. Проверить баланс");
-        System.out.println("3. Перевод кредитов и билетов");
-        System.out.println("4. Играть");
-        System.out.println("5. Купить призы");
-        System.out.println("6. Вернуться в меню");
-        System.out.println("0. Выход");
+        System.out.println("3. Перевод кредитов");
+        System.out.println("4. Перевод билетов");
+        System.out.println("5. Играть");
+        System.out.println("6. Купить призы");
+        System.out.println("7. Вернуться в меню");
+        System.out.println("0. Выход\n");
 
         System.out.println("Что бы вы хотели сделать?");
 
@@ -129,7 +136,7 @@ public class Terminal {
                     int gameId = sc.nextInt();
                     Game gameToPlay = office.GetGame(gameId);
                     if (gameToPlay != null) gameToPlay.Play(card);
-                    else System.out.println("Игра не найдена0");
+                    else System.out.println("Игра не найдена");
 
                     System.out.println("-------Меню-------");
                     System.out.println("1. Пополнить баланс");
@@ -150,7 +157,8 @@ public class Terminal {
                     int prizeId = sc.nextInt();
                     switch (prizeId) {
                         case 1 -> {
-                            GetSmallPrize(card);
+                            if (smallPrize.GetQuantity() == 0) System.out.println("Not E P");
+                            else GetSmallPrize(card);
                             // System.out.println("Осталось " + smallPrize.GetQuantity() + " призов(а)");
                             // Вывожу в методе this.GetSmallPrize - можно выбрать где выводить
                         }
@@ -181,6 +189,26 @@ public class Terminal {
                     break;
 
                 case 7:
+
+                    System.out.println("-------Меню-------");
+                    System.out.println("1. Пополнить баланс");
+                    System.out.println("2. Проверить баланс");
+                    System.out.println("3. Перевод кредитов");
+                    System.out.println("4. Перевод билетов");
+                    System.out.println("5. Играть");
+                    System.out.println("6. Купить призы");
+                    System.out.println("7. Вернуться в меню");
+                    System.out.println("0. Выход\n");
+
+                    input = sc.nextInt();
+                    break;
+
+                case 8:
+                    System.out.println("Enter Card To Work With ID: ");
+                    int idCard = sc.nextInt();
+                    Card cardNew = office.GetCard(idCard);
+                    if (cardNew == null) System.out.println("Карта не найдена");
+                    else card = cardNew;
 
                     System.out.println("-------Меню-------");
                     System.out.println("1. Пополнить баланс");
